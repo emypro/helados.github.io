@@ -1,0 +1,63 @@
+body {
+  font-family: Open Sans, sans-serif;
+  background-image: url('fondo.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  background-color: #FFC107;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+footer {
+  background-color: #FFC107;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+main h1 {
+  color: #A1C9F2; /* Azul pastel */
+}
+
+main p {
+  color: #C6F4C6; /* Verde pastel */
+}
+main ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main ul li {
+  margin: 20px;
+  width: 200px; /* Ajusta el ancho según sea necesario */
+}
